@@ -23,15 +23,13 @@
 
 ### Geral
 
-As configurações do GIT são armazenadas no arquivo **.gitconfig** localizado dentro do diretório do usuário do Sistema Operacional (Ex.: Windows: C:\Users\Documents and Settings\Leonardo ou *nix /home/leonardo).
-
-As configurações realizadas através dos comandos abaixo serão incluídas no arquivo citado acima.
+As configurações do GIT são armazenadas no arquivo **.gitconfig**
 
 ##### Setar usuário
-	git config --global user.name "Leonardo Comelli"
+	git config --global user.name "nome_do_usuari"
 
 ##### Setar email
-	git config --global user.email leonardo@software-ltda.com.br
+	git config --global user.email email_do_suario
 	
 ##### Setar editor
 	git config --global core.editor vim
@@ -187,7 +185,7 @@ A alteração do diretório pode ser realizada através do comando abaixo:
 
 ### Vincular repositório local com um repositório remoto
 
-	git remote add origin git@github.com:leocomelli/curso-git.git
+	git remote add origin git@github.com:email_do-github
 	
 ### Exibir informações dos repositórios remotos
 
@@ -224,7 +222,7 @@ Os demais **pushes** não precisam dessa informação
 	
 ### Clonar um repositório remoto já existente
 
-	git clone git@github.com:leocomelli/curso-git.git
+	git clone git@github.com:email_do_github
 	
 ### Tags
 
@@ -443,8 +441,4 @@ Depois de encontrar o commit com problema, para retornar para o *HEAD* utilize:
 	
 	git bisect reset
  	
-
-# Contribuições
-
-Sinta-se a vontade para realizar adicionar mais informações ou realizar correções. Fork me!
 
